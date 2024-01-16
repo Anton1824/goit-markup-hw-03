@@ -12,35 +12,40 @@ button {
 a {
     text-decoration: none;
 } 
+img {
+    display: block;
+}
 
 /* header */
 
-.header-container { 
+.header { 
     box-sizing: border-box;
     display: flex;
     
-    width: 1440;
-    height: 72;
+    width: 1158px;
+    height: 72px;
     padding: 0;
     margin-bottom: 1px;
+    border-bottom: 1px solid #e7e9fc
     }
 
 .header-nav {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    margin: 0 ;
     margin-left: 156px;
+    padding: 0 ;
     }
     
 .logo {
     color: #4D5AE5;
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
 
     }
 .logo span {
@@ -48,9 +53,12 @@ a {
     width: 71px;
 }
 .header-list-item > ul {
-    display: inline-flex;
+    display: flex;
     gap: 40px;
+    padding: 24px;
+    margin: 0;
 }
+
 
 .header-list .header-link  {
         color: #2E2F42;
@@ -58,6 +66,7 @@ a {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        gap: 40px;
 
 }
 .header-list :hover {
@@ -66,19 +75,26 @@ a {
 .header-list :focus {
     color: #404BBF;
 } 
+.header-address {
+   box-sizing: border-box;
+   /* margin: 24px 0; */
+   display: flex;
+}
 .address-contact >ul {
     font-style: normal;
     display: flex;
     gap: 40px;
+    margin: 24px 0;;
     
 }
     
 .header-contact .header-contact_link {
     color:  #434455;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    margin: 24px 0;
 }
 
 .header-contact :hover {
