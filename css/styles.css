@@ -163,7 +163,7 @@ color: #434455;
   letter-spacing: 0.64px;
   background-color: #4d5ae5;
 
-  display: flex;
+  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -217,7 +217,7 @@ color: #434455;
 
 .feauters-item {
   display: flex;
-  
+  flex-basis: calc((100% - 72px) / 4);
 } 
 
 .features-title {
