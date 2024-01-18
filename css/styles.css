@@ -41,7 +41,7 @@ p {
 
 /* header */
 
-.header { 
+.header > .container { 
   color: #434455; 
   box-sizing: border-box;
   display: flex;
@@ -99,8 +99,8 @@ p {
 }
  
 .header-address {
-/* color: #434455; */
-display: inline-flex;
+color: #434455;
+  display: inline-flex;
 
   font-size: 16px;
   font-style: normal;
@@ -151,7 +151,7 @@ display: inline-flex;
   box-sizing: border-box;
   max-width: 496px;
   margin: auto;
-  padding: 188px 0 48px;
+  padding: 188px 0;
 }
 .solutions-button {
   color: #fff;
@@ -163,7 +163,7 @@ display: inline-flex;
   letter-spacing: 0.64px;
   background-color: #4d5ae5;
 
-  display: block;
+  display: flex;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -174,7 +174,7 @@ display: inline-flex;
 
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin: 0 635px 188px 636px;
+
 }
 
 .solutions-button:hover {
@@ -186,7 +186,7 @@ display: inline-flex;
 
 /* section3 features */
 
-.feature {
+.features {
   padding: 120px 0;
 }
 
@@ -206,7 +206,6 @@ display: inline-flex;
 
 .feauters-list {
   width: 1158px;
-  margin: 120px 0;
   box-sizing: border-box;
   display: flex;
   align-items: center;
