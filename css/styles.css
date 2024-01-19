@@ -48,6 +48,9 @@ p {
   margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .header-nav {
   box-sizing: border-box;
