@@ -39,7 +39,7 @@ p {
 
 /* header */
 
-.header .container {
+.header {
   color: #434455;
   box-sizing: border-box;
   display: flex;
@@ -127,8 +127,6 @@ p {
 
 .solutions {
   background-color: #2e2f42;
-  /* width: 1440px;
-  height: 600px; */
   padding: 188px 0;
   text-align: center;
 }
@@ -142,8 +140,8 @@ p {
   line-height: 1.07;
   letter-spacing: 1.12px;
 
-  width: 496px;
-  margin-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto 48px;
   
 }
 .solutions-button {
@@ -156,7 +154,8 @@ p {
   letter-spacing: 0.64px;
   
 
-  display: flex;
+  display: block;
+  margin: auto;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -165,7 +164,6 @@ p {
   border: none;
   cursor: pointer;
   
-  /* margin: auto; */
   border-radius: 4px;
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -209,8 +207,7 @@ p {
 }
 
 .feauters-item {
-  /* display: flex; */
-  width: calc((100% - 72px) / 4);
+  width: calc( ( 100% - 72px ) / 4);
 }
 
 .features-title {
