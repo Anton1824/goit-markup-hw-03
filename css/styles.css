@@ -78,9 +78,8 @@ p {
 .heder-list-nav {
   display: flex;
   list-style: none;
-  padding: 0;
   gap: 40px;
-  padding: 24px 0;
+  
 }
 
 .header-list .header-link {
@@ -91,7 +90,6 @@ p {
   letter-spacing: 0.02em;
   gap: 40px;
   padding: 24px 0;
-
   display: block;
 }
 .header-list :hover .header-list :focus {
@@ -205,12 +203,11 @@ p {
   box-sizing: border-box;
   display: flex;
   align-items: center;
-
   gap: 24px;
   padding: 0 15px;
 }
 
-.feauters-item {
+.features-item {
   width: calc( ( 100% - 72px ) / 4);
 }
 
