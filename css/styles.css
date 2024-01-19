@@ -214,7 +214,7 @@ color: #434455;
   
   gap: 24px;
   padding: 0 15px;
-  flex-basis: calc((100% - 72px) / 4);
+  /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .feauters-item {
@@ -245,8 +245,13 @@ color: #434455;
 
 .team {
   background: #f4f4fd;
+  width: 1440px;
+  height: 732px;
+  flex-shrink: 0;
+  padding: 120px 0;
 }
 .team-headtitle {
+  font-family: Roboto;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -255,18 +260,41 @@ color: #434455;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
+
 }
+.team-list {
+  background-color: #f4f4fd;
+  display: flex;
+  gap: 24px;
+  
+}
+.team-item {
+  /* margin-right: 24px; */
+  /* display: flex; */
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  /* gap: 24px; */
+}
+.team-image {
+  display: block;
+}
+.item {
+  background: #ffffff;
+  padding: 32px;
+}
+
 .team-title {
   color: #2e2f42;
-  text-align: center;
+  
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 8px;
 }
-.team > ul > li {
-  background-color: #ffffff;
-}
+
 .team-text {
   color: #434455;
   text-align: center;
