@@ -39,7 +39,7 @@ p {
 
 /* header */
 
-.header {
+.header .container {
   color: #434455;
   box-sizing: border-box;
   display: flex;
@@ -87,6 +87,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   gap: 40px;
+  padding: 24px 0;
 
   display: block;
 }
