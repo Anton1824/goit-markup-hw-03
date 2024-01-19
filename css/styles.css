@@ -2,8 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
-  margin: 0;
 }
 ul {
   list-style-type: none;
@@ -30,8 +28,6 @@ p {
 }
 
 .container {
-  box-sizing: border-box;
-  align-items: center;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -41,11 +37,7 @@ p {
 
 .header .container {
   color: #434455;
-  box-sizing: border-box;
   display: flex;
-  width: 1158px;
-  height: 72px;
-  margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
 }
 .header {
@@ -53,7 +45,6 @@ p {
 }
 
 .header-nav {
-  box-sizing: border-box;
   display: flex;
   align-items: center;
   margin: 0;
@@ -72,7 +63,6 @@ p {
 
 .logo span {
   color: #2e2f42;
-  width: 71px;
 }
 
 .heder-list-nav {
@@ -88,7 +78,6 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  gap: 40px;
   padding: 24px 0;
   display: block;
 }
@@ -99,6 +88,7 @@ p {
 .header-address {
   color: #434455;
   display: inline-flex;
+  margin-left: auto;
 
   font-size: 16px;
   font-style: normal;
@@ -108,17 +98,13 @@ p {
 }
 
 .heder-list-address {
-  /* color: #434455; */
-  box-sizing: border-box;
   display: flex;
-  margin: 24px 0;
   gap: 40px;
-  padding-left: 327px;
 }
 
 .header-contact .header-contact_link {
   display: block;
-  margin: auto;
+  padding: 24px 0;
 }
 
 .header-contact :hover .header-contact :focus {
@@ -157,10 +143,8 @@ p {
   
 
   display: block;
-  margin: auto;
+  margin: 0 auto;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -199,12 +183,9 @@ p {
 }
 
 .feauters-list {
-  width: 1158px;
-  box-sizing: border-box;
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 0 15px;
 }
 
 .features-item {
@@ -212,7 +193,6 @@ p {
 }
 
 .features-title {
-  width: 264px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -221,7 +201,6 @@ p {
   margin-bottom: 8px;
 }
 .features-text {
-  width: 264px;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -233,31 +212,26 @@ p {
 
 .team {
   background: #f4f4fd;
-  width: 1440px;
-  height: 732px;
-  flex-shrink: 0;
   padding: 120px 0;
 }
 .team-headtitle {
-  font-family: Roboto;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
 .team-list {
-  background-color: #f4f4fd;
   display: flex;
   gap: 24px;
 }
 .team-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  background-color: #f4f4fd;
 }
 .team-image {
   display: block;
